@@ -83,7 +83,7 @@ const CommentsForm = ({slug}) => {
         className='transition duration-500 ease hover:bg-gray-900 inline-block bg-blue-600 text-lg rounded-full text-white px-8 py-3 cursor-pointer' 
         type='button' 
         onClick={()=>handleSubmit()}>Post Comment</button>
-        {showSuccessMessage && <span className='text-xl float-right font-semibold text-green-500'>Comment Submitted For Review</span>}
+        {showSuccessMessage && <span className='text-xl float-right font-semibold text-blue-500'>Comment Submitted For Review</span>}
       </div>
     </div>
   )
